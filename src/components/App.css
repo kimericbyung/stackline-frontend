@@ -1,0 +1,139 @@
+.app {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #8a8f95;
+}
+
+.app-header {
+  background-color: #052849;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.app-logo {
+  height: 2vh;
+}
+
+.app-header-contents {
+  display: flex;
+  align-items: left;
+  padding: 2vh
+}
+
+.app-contents {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f9fc;
+}
+
+
+.product-page {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  gap: 20px;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 20px;
+  margin-right: 40px;
+}
+
+.product-bar {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.product-bar img {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.product-bar-title {
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.product-bar-subtitle {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.product-bar-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+}
+
+.product-bar-tag {
+  border: 1px solid #8a8f95;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  color: black;
+}
+
+.product-sales-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.product-sales-graph {
+  flex: 1;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.product-salest-graph-header {
+  font-size: 1.1rem;
+  padding: 10px;
+  color: black;
+}
+
+
+.product-sales-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.product-sales-table th {
+  background-color: #ffffff;
+  color: #333;
+  text-align: left;
+  padding: 20px;
+  padding-left: 10px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-sales-table td {
+  padding: 10px;
+}
+
+.product-sales-table tr:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
