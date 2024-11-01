@@ -19,6 +19,8 @@ function App() {
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
 
+  if (!data || data.length === 0) return <div>No data available.</div>;
+
   return (
     <div className="app">
       <header className="app-header">
